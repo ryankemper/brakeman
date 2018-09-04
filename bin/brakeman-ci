@@ -1,2 +1,4 @@
 #!/usr/bin/env sh
-echo $@
+args="$(echo $@)"
+echo "Detected args=${args}"
+./brakeman "${args}"
