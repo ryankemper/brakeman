@@ -22,4 +22,4 @@ COPY . /usr/src/app
 # Default to looking for source in /code
 WORKDIR /code
 
-ENTRYPOINT ["/usr/src/app/bin/brakeman"]
+ENTRYPOINT ["/usr/src/app/bin/brakeman-ci"]
