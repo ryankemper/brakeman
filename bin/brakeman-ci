@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 args="$(echo $@)"
 echo "Detected args=${args}"
-/usr/src/app/bin/brakeman "${args}"
+/usr/src/app/bin/brakeman ${args}
